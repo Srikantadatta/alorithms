@@ -14,12 +14,6 @@ def async_handler(input_func, args, callback_function):
     :param callback_function: 
     :return:
     '''
-    '''
-    :param input_func: 
-    :param args: 
-    :param callback_function: 
-    :return:
-    '''
     result = input_func(args)
     callback_function(result)
 
